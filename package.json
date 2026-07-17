@@ -1,0 +1,24 @@
+{
+  "name": "recipe-finder",
+  "version": "1.0.0",
+  "description": "A recipe finder application that searches recipes by ingredients using a food API.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "recipes",
+    "food",
+    "ingredient-search",
+    "api",
+    "recipe-finder"
+  ],
+  "author": "CodeGPT",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^8.1.5"
+  }
+}

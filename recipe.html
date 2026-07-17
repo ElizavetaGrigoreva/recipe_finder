@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="page-header">
+
+    <button class="back-button" onclick="window.location.href='results.html'">
+        ← Back to Results
+    </button>
+
+    <h1 id="recipe-title">Loading Recipe...</h1>
+
+</header>
+
+<main class="recipe-page">
+
+    <section class="recipe-image-section">
+        <img
+            id="recipe-image"
+            src=""
+            alt="Recipe Image"
+        >
+    </section>
+
+    <section class="recipe-information">
+
+        <div class="recipe-summary">
+
+            <div class="recipe-meta">
+                <div class="meta-card">
+                    <h3>Preparation</h3>
+                    <p id="prep-time">--</p>
+                </div>
+
+                <div class="meta-card">
+                    <h3>Cooking</h3>
+                    <p id="cook-time">--</p>
+                </div>
+
+                <div class="meta-card">
+                    <h3>Servings</h3>
+                    <p id="servings">--</p>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="ingredients-section">
+
+            <h2>Ingredients</h2>
+
+            <ul id="ingredients-list">
+                <!-- Filled dynamically -->
+            </ul>
+
+        </section>
+
+        <section class="instructions-section">
+
+            <h2>Cooking Instructions</h2>
+
+            <ol id="instructions-list">
+                <!-- Filled dynamically -->
+            </ol>
+
+        </section>
+
+    </section>
+
+</main>
+
+<script type="module" src="recipe.js"></script>
+
+</body>
+</html>
